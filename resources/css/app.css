@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+@import "flowbite";
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme inline {
+    --font-sans: Instrument Sans, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-body: #F5F5F5;
+    --color-primary: #FFC700;
+    --color-secondary: #2341AB;
+    --color-fields: #E0E0E0;
+    --color-fields-secondary: #A8D3FF;
+    --color-table-header: #F9FAFB;
+    --font-poppins: "Poppins", sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
+}
